@@ -30,79 +30,27 @@ class FeatureContext extends BehatContext
         // Initialize your context here
     }
 
-//
-// Place your definition and hook methods here:
-//
-//    /**
-//     * @Given /^I have done something with "([^"]*)"$/
-//     */
-//    public function iHaveDoneSomethingWith($argument)
-//    {
-//        doSomethingWith($argument);
-//    }
-//
-
-/**
-     * @Given /^I am in a directory "([^"]*)"$/
+    /**
+     * @Given /^I am creating a database and table$/
      */
-    public function iAmInADirectory($arg1)
+    public function iAmCreatingADatabaseAndTable()
     {
-
+	//../../data/create_datebase_table
     }
 
     /**
-     * @Given /^I have a file named "([^"]*)"$/
+     * @When /^I inserting value into table$/
      */
-    public function iHaveAFileNamed($arg1)
+    public function iInsertingValueIntoTable()
     {
-
+	//../../data/insert_value
     }
 
     /**
-     * @When /^I run "([^"]*)"$/
+     * @Then /^I should get all inserted value$/
      */
-    public function iRun($arg1)
+    public function iShouldGetAllInsertedValue()
     {
-
+	//../../data/select_value
     }
-
-    /**
-     * @Then /^I should get:$/
-     */
-    public function iShouldGet(PyStringNode $string)
-    {
-
-    }
-	
-	  /**
-   * @Given /^a is (\d+)$/
-   */
-  public function aIs($arg1)
-  {
-      
-  }
-
-  /**
-   * @Given /^b is (\d+)$/
-   */
-  public function bIs($arg1)
-  {
-      
-  }
-
-  /**
-   * @When /^I enter equal$/
-   */
-  public function iEnterEqual()
-  {
-      
-  }
-
-  /**
-   * @Then /^I should get (\d+)$/
-   */
-  public function iShouldGet2($arg1)
-  {
-      
-  }
 }
