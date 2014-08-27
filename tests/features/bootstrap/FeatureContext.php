@@ -50,7 +50,11 @@ class FeatureContext extends BehatContext
      */
     public function theResultShouldBeOnTheScreen($argument1)
     {
-        assertEquals($argument1, $this->calculator->result());
+        //assertEquals($argument1, $this->calculator->result());
+		if ($argument1 !== $this->calculator->result())
+		{
+			throw new Exception("Actual output is:\n" . $this->calculator->result());
+		}
     }
 
     /**
