@@ -59,7 +59,7 @@ class FeatureContext extends BehatContext
      */
     public function iAmCreatingSomethingWrong()
     {
-		hh
+		
     }
 
     /**
@@ -67,7 +67,7 @@ class FeatureContext extends BehatContext
      */
     public function iTypeSomethingWrong()
     {
-		dd
+		
     }
 
     /**
@@ -75,6 +75,6 @@ class FeatureContext extends BehatContext
      */
     public function iShouldGetFailedResult()
     {
-		dd
+		
     }
 }
