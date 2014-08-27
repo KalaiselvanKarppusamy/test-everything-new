@@ -52,7 +52,8 @@
 		</apply>		
 	</target>
 	
-	<target name="behat">		
+	<target name="behat">
+		<echo message="Running behat test" />
         <apply executable="${basedir}/vendor/bin/behat" parallel="false">
 			<fileset dir="${basedir}/tests" >
 				<include name="features/**" />
