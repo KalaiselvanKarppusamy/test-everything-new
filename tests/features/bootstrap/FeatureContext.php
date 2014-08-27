@@ -53,4 +53,28 @@ class FeatureContext extends BehatContext
     {
 	//../../data/select_value
     }
+	
+	/**
+     * @Given /^I am creating something wrong$/
+     */
+    public function iAmCreatingSomethingWrong()
+    {
+		hh
+    }
+
+    /**
+     * @When /^I type something wrong$/
+     */
+    public function iTypeSomethingWrong()
+    {
+		dd
+    }
+
+    /**
+     * @Then /^I should get failed result$/
+     */
+    public function iShouldGetFailedResult()
+    {
+		dd
+    }
 }
