@@ -26,7 +26,7 @@
 	  
 	  <chmod file="${basedir}/vendor/bin/behat" perm="777" />
 	  <chmod file="${basedir}/vendor/behat/behat/bin/behat" perm="777" />
-	  <chmod file="${basedir}/build/logs/" perm="777" />
+	  <chmod file="${basedir}/build/" perm="777" />
 	 </target>
 	<!-- <target name="phpunit"  depends="AlbumTest,ChecklistTest" > -->
 	
