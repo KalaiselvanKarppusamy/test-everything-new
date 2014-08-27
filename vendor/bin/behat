@@ -1,6 +1,6 @@
 SRC_DIR="`pwd`"
 cd "`dirname "$0"`"
-cd '../behat/behat/bin'
+cd '/behat/behat/bin'
 BIN_TARGET="`pwd`/behat"
 cd "$SRC_DIR"
 "$BIN_TARGET" "$@"
