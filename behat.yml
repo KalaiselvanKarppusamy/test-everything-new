@@ -6,4 +6,4 @@ default:
     formatter:
         name:       junit
         parameters:
-            output_path: build/logs/behat
+            output_path: build/logs
